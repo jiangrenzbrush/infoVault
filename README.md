@@ -78,3 +78,45 @@ C:\Users\yitia\Documents\InfoVault\data\vault.db
 - 到期提醒
 - 附件上传
 - 桌面快捷方式自动创建
+
+- # InfoVault
+
+InfoVault is a local Windows desktop app for storing important personal information in one place, so you do not need to search through chat history again and again.
+
+Suitable for storing:
+- website accounts and passwords
+- software licenses and activation keys
+- family reminders and important notes
+- platform login details
+- imported account/password data from DOCX files
+
+## Features
+
+- local-only storage
+- encrypted sensitive fields tied to the current Windows account
+- filter records by date, category, and importance
+- keyword search
+- save changes as a new record or overwrite an existing record
+- color tags in the record list
+- export and import backup files
+- import account/password information from DOCX files with automatic categorization
+- copy username and password with one click
+- open saved websites directly
+- bilingual interface: Chinese and English
+
+## Project Files
+
+- `main.py`: application entry point
+- `infovault_app.py`: UI logic
+- `infovault_storage.py`: local database and encrypted storage
+- `infovault_docx_import.py`: DOCX import and auto-categorization
+- `infovault_i18n.py`: interface text for Chinese and English
+- `launch_infovault.bat`: local launch script
+- `InfoVault.spec`: PyInstaller build config
+
+## Run Locally
+
+```powershell
+cd C:\Users\yitia\Documents\InfoVault
+python main.py
+
