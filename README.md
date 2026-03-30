@@ -60,24 +60,7 @@ C:\Users\yitia\Documents\InfoVault\dist\信息管家.exe
 C:\Users\yitia\Documents\InfoVault\data\vault.db
 ```
 
-## 发布到 GitHub 的建议
 
-- GitHub 仓库里建议只放源码，不要提交 `data/` 里的个人数据。
-- `dist/` 和 `build/` 建议不进仓库，成品 `exe` 可以单独发到 GitHub Releases。
-- 如果你要公开仓库，导出的备份文件和数据库都不要上传。
-
-## 这次已经整理好的发布内容
-
-- GitHub 源码包：适合上传到仓库
-- Windows 成品包：适合上传到 Releases
-
-## 后续还可以继续加的功能
-
-- 导入预览
-- 主密码锁
-- 到期提醒
-- 附件上传
-- 桌面快捷方式自动创建
 
 - # InfoVault
 
